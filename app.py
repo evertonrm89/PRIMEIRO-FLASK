@@ -23,7 +23,7 @@ def curso_com_nome(nome):
     elif nome == 'poo':
         return render_template("curso_poo.html")
     else:
-        return "Curso não existe"
+        return "Curso não existe "
 
 if __name__ == '__main__':
     app.run(debug=True)
